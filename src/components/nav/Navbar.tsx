@@ -7,9 +7,9 @@ const Navbar = () => {
   const [menuClicked, setMenuClicked] = useState(false);
 
   return (
-    <div className="flex flex-col mx-auto">
+    <div className="flex flex-col mx-auto fixed w-full z-50">
       <nav
-        className={`transition-all flex justify-between px-5 py-4 ${
+        className={`transition-all bg-bgBlack flex justify-between px-5 py-4 ${
           menuClicked ? "border-b border-gray" : ""
         }`}
       >
@@ -18,13 +18,13 @@ const Navbar = () => {
             QUANT
           </p>
           <div
-            className={`transition-all absolute w-full h-[1px] bg-blobMiddle top-0 -z-10 animate-fade-right animate-delay-100`}
+            className={`transition-all absolute w-full h-[1px] bg-blobMiddle top-0 z-50 animate-fade-right animate-delay-100`}
           />
           <div
-            className={`transition-all absolute w-full h-[1px] bg-blobRight top-1/2 -z-10 animate-fade-left animate-delay-300`}
+            className={`transition-all absolute w-full h-[1px] bg-blobRight top-1/2 z-50 animate-fade-left animate-delay-300`}
           />
           <div
-            className={`transition-all absolute w-full h-[1px] bg-blobLeft bottom-0 -z-10 animate-fade-right animate-delay-500`}
+            className={`transition-all absolute w-full h-[1px] bg-blobLeft bottom-0 z-50 animate-fade-right animate-delay-500`}
           />
         </div>
 
@@ -53,8 +53,8 @@ const Navbar = () => {
         )}
       </nav>
       {menuClicked && (
-        <div className="md:w-full md:flex md:justify-end">
-          <div className="animate-fade-left animate-duration-1000 flex flex-col justify-between px-4 py-8 h-[calc(100vh-65px)] md:w-[400px] md:border-l border-gray ">
+        <div className="md:w-full md:flex md:justify-end ">
+          <div className="bg-bgBlack animate-fade-left animate-duration-1000 flex flex-col justify-between px-4 py-8 h-[calc(100vh-65px)] md:w-[400px] md:border-l border-gray ">
             <div>
               <div className="relative w-fit secondaryHeader my-2 group ">
                 <p> About Us</p>

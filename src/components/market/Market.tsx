@@ -4,7 +4,7 @@ const Market = () => {
   return (
     <div className="max-w-[1100px] mx-auto">
       <div className="mb-8">
-        <h1 className="primaryHeader text-center">Crypto Market Making</h1>
+        <h1 className="primaryHeader text-center px-5">Crypto Market Making</h1>
       </div>
       <p className="text text-center px-4 mb-8 mx-auto max-w-[400px] md:max-w-[500px]">
         Our fully automated proprietary quantitative trading software provides
@@ -20,7 +20,7 @@ const Market = () => {
               src="/boxes/token-1.png.svg"
               width={1000}
               height={1000}
-              className="object-cover absolute z-50 w-24 h-24 right-8 -top-14
+              className="object-cover absolute z-40 w-24 h-24 right-8 -top-14
               animate-bounce animate-duration-[4000ms] animate-ease-linear
               "
             />
@@ -29,14 +29,14 @@ const Market = () => {
               src="/boxes/table-1.png.svg"
               width={1000}
               height={1000}
-              className="absolute z-40"
+              className="absolute z-30"
             />
             <Image
               alt=""
               src="/boxes/bar-1.png.svg"
               width={1000}
               height={1000}
-              className="absolute z-30 h-48"
+              className="absolute z-20 h-48"
             />
           </div>
 
@@ -46,7 +46,7 @@ const Market = () => {
               src="/boxes/token-2.png.svg"
               width={1000}
               height={1000}
-              className="object-cover absolute z-50 w-16 h-16 -top-8 right-2
+              className="object-cover absolute z-40 w-16 h-16 -top-8 right-2
               animate-bounce animate-duration-[5000ms] animate-ease-linear
               "
             />
@@ -55,14 +55,14 @@ const Market = () => {
               src="/boxes/table-2.png.svg"
               width={1000}
               height={1000}
-              className="object-cover absolute z-40  "
+              className="object-cover absolute z-30  "
             />
             <Image
               alt=""
               src="/boxes/bar-2.png.svg"
               width={1000}
               height={1000}
-              className="object-cover absolute z-30 h-20 "
+              className="object-cover absolute z-20 h-20 "
             />
           </div>
 
@@ -72,7 +72,7 @@ const Market = () => {
               src="/boxes/token-3.png.svg"
               width={1000}
               height={1000}
-              className="object-cover absolute z-50 w-12 h-12 -top-8 right-4
+              className="object-cover absolute z-40 w-12 h-12 -top-8 right-4
               animate-bounce animate-duration-[6000ms] animate-ease-linear
               "
             />
@@ -81,14 +81,14 @@ const Market = () => {
               src="/boxes/table-3.png.svg"
               width={1000}
               height={1000}
-              className="object-cover absolute z-40"
+              className="object-cover absolute z-30"
             />
             <Image
               alt=""
               src="/boxes/bar-3.png.svg"
               width={1000}
               height={1000}
-              className="object-cover absolute z-30 h-20 "
+              className="object-cover absolute z-20 h-20 "
             />
           </div>
 
@@ -98,7 +98,7 @@ const Market = () => {
               src="/boxes/token-4.png.svg"
               width={1000}
               height={1000}
-              className="object-cover absolute z-50 w-12 h-12 -top-12 right-4
+              className="object-cover absolute z-40 w-12 h-12 -top-12 right-4
               animate-bounce animate-duration-[7000ms] animate-ease-linear
               "
             />
@@ -107,19 +107,19 @@ const Market = () => {
               src="/boxes/table-4.png.svg"
               width={1000}
               height={1000}
-              className="object-cover absolute z-40 -top-2"
+              className="object-cover absolute z-30 -top-2"
             />
             <Image
               alt=""
               src="/boxes/bar-4.png.svg"
               width={1000}
               height={1000}
-              className="object-cover absolute z-30  h-20"
+              className="object-cover absolute z-20  h-20"
             />
           </div>
         </div>
 
-        <div className="z-50 mt-20 px-5  md:w-1/2">
+        <div className=" mt-20 px-5  md:w-1/2">
           <h1 className="secondaryHeader text-center mb-4 md:text-left md:max-w-[450px]">
             Market Making for Crypto Projects
           </h1>
@@ -133,10 +133,7 @@ const Market = () => {
           </p>
 
           <div className="group mx-auto md:ml-0 overflow-hidden relative flex items-center mt-4 w-fit -z-10  gradient bg-clip-text">
-            <Link
-              href="#"
-              className="flex items-center text-transparent"
-            >
+            <Link href="#" className="flex items-center text-transparent">
               <p>Learn more</p>
               <p className="text-4xl ml-2 mb-1">→</p>
             </Link>
@@ -146,10 +143,6 @@ const Market = () => {
             "
             />
           </div>
-
-
-
-
         </div>
       </div>
     </div>
