@@ -47,7 +47,7 @@ const Exchange = () => {
           />
         </div>
 
-        <div className="">
+        <div className="px-5">
           <h1 className="secondaryHeader text-center mb-4 md:text-left md:max-w-[450px] ">
             Market Making for Crypto Exchanges
           </h1>
