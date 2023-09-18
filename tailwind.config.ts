@@ -28,7 +28,7 @@ const config: Config = {
         },
         moveX : {
           "0%": { transform: "translateX(0px)" },
-          "100%": { transform: "translateX(-3000px)" },
+          "100%": { transform: "translateX(-2000px)" },
 
         }
       },
