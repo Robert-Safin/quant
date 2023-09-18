@@ -26,10 +26,16 @@ const config: Config = {
           "50%": { transform: "translateY(250px)" },
           "100%": { transform: "translateY(-250px)" },
         },
+        moveX : {
+          "0%": { transform: "translateX(0px)" },
+          "100%": { transform: "translateX(-1000px)" },
+
+        }
       },
       animation: {
         moveY1: "moveY1 infinite 20s linear",
         moveY2: "moveY2 infinite 20s linear",
+        moveX: "moveX infinite 20s linear",
       },
     },
   },

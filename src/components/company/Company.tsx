@@ -45,12 +45,12 @@ const Company = () => {
         {activeIndex === 0 && (
           <div className="absolute mx-auto w-full text-center px-5 flex flex-col justify-center items-center space-y-4 animate-fade animate-duration-1000">
             <p className="text gradient bg-clip-text text-transparent max-w-[580px]">
-              Since 2019, Gravity team has been an astounding market maker for
+              Since 2019, Quant team has been an astounding market maker for
               Bitkub. They have proven themselves to be one of the most
               consistent, committed and driven market makers on our exchange.
-              Gravity Team has contributed high-quality volume and has proven to
+              Quant Team has contributed high-quality volume and has proven to
               be very reliable and trustworthy partner. We strongly advocate
-              Gravity Team as they have been an indispensable part of our
+              Quant Team as they have been an indispensable part of our
               market-making team.
             </p>
             <p className="text">Atthakrit Chimplapibul</p>
@@ -72,14 +72,14 @@ const Company = () => {
         {activeIndex === 1 && (
           <div className="absolute mx-auto w-full text-center px-5 flex flex-col justify-center items-center space-y-4 animate-fade animate-duration-1000">
             <p className="text gradient bg-clip-text text-transparent max-w-[580px]">
-              Gravity Team is a key partner for Bitso, and their professionalism
+              Quant Team is a key partner for Bitso, and their professionalism
               has been instrumental in deploying our liquidity strategy and
-              expansion ambitions across Latin America. Gravity Team’s vast
+              expansion ambitions across Latin America. Quant Team’s vast
               market expertise and flexibility to support our business
               requirements in lightning speed have permitted us to catch up with
               our product debt, list new tokens in record time, and offer
               attractive spreads for our end users. We are grateful to partner
-              with Gravity Team and excited to continue working together in
+              with Quant Team and excited to continue working together in
               making crypto useful.
             </p>
             <p className="text">Alberto Sánchez Tello</p>
@@ -99,10 +99,10 @@ const Company = () => {
         {activeIndex === 2 && (
           <div className="absolute mx-auto w-full text-center px-5 flex flex-col justify-center items-center space-y-4 animate-fade animate-duration-1000">
             <p className="text gradient bg-clip-text text-transparent max-w-[580px]">
-              Gravity Team has been a supportive partner that has provided many
+              Quant Team has been a supportive partner that has provided many
               opportunities to our business at an early stage of growth, be it
               in financing, networking, or marketing. We are extremely happy
-              with our choice of Gravity as a business partner and can highly
+              with our choice of Quant as a business partner and can highly
               recommend to other crypto projects.
             </p>
             <p className="text">Szymon Jankowski</p>

@@ -18,13 +18,13 @@ const Navbar = () => {
             QUANT
           </p>
           <div
-            className={`transition-all absolute w-full h-[1px] bg-blobMiddle top-0 z-50 animate-fade-right animate-delay-100`}
+            className={`transition-all absolute w-full h-[1px] bg-blobMiddle top-0 z-50 animate-fade-right animate-duration-[4000ms] animate-delay-100`}
           />
           <div
-            className={`transition-all absolute w-full h-[1px] bg-blobRight top-1/2 z-50 animate-fade-left animate-delay-300`}
+            className={`transition-all absolute w-full h-[1px] bg-blobRight top-1/2 z-50 animate-fade-left animate-duration-[4000ms] animate-delay-300`}
           />
           <div
-            className={`transition-all absolute w-full h-[1px] bg-blobLeft bottom-0 z-50 animate-fade-right animate-delay-500`}
+            className={`transition-all absolute w-full h-[1px] bg-blobLeft bottom-0 z-50 animate-fade-right animate-duration-[4000ms] animate-delay-500`}
           />
         </div>
 

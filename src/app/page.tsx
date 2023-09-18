@@ -1,6 +1,8 @@
 import About from '@/components/About/About'
 import Company from '@/components/company/Company'
+import Contact from '@/components/contact/Contact'
 import Exchange from '@/components/exchnage/Exchange'
+import Footer from '@/components/footer/Footer'
 import Hero from '@/components/hero/Hero'
 import Join from '@/components/join/Join'
 import Market from '@/components/market/Market'
@@ -18,7 +20,8 @@ export default function Home() {
     <Partners/>
     <Company/>
     <Join/>
-
+    <Contact/>
+    <Footer/>
     </>
   )
 }
